@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "prettier": "^1.18.2"
+  }
+}
