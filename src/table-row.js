@@ -5,12 +5,12 @@ import {TableCell} from './table-cell'
 const renderDayCell = (data, i) => <TableCell key={i} data={data} />
 
 export const TableRow = ({id, seatNum, type, days}) => (
-  <div>
-    <span>
+  <div className="row">
+    <span className="cell hcell">
       <h2>{id}</h2>
-      <span>
+      <p>
         {seatNum} seat(s), {type}
-      </span>
+      </p>
     </span>
     {days.map(renderDayCell)}
   </div>
