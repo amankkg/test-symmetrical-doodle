@@ -100,7 +100,7 @@ body {
   width: 100%;
   font-size: small;
   align-self: center;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
 .cell-header > span:last-child {
