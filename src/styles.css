@@ -4,7 +4,7 @@ body {
 }
 
 .table {
-  overflow: auto;
+  overflow: unset;
 }
 
 .day {
@@ -26,6 +26,9 @@ body {
 }
 
 .hrow {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   height: 30px;
   background: #3a3a3b;
   margin: 0 4px 4px 0;
@@ -50,6 +53,9 @@ body {
 }
 
 .hcell {
+  position: sticky;
+  left: 0;
+  z-index: 1;
   min-width: 34px;
   max-width: 34px;
   height: 295px;
