@@ -6,12 +6,12 @@ const renderDayCell = (data, i) => <TableCell key={i} data={data} />
 
 export const TableRow = ({id, seatNum, type, days}) => (
   <div className="row">
-    <span className="cell hcell">
+    <div className="cell hcell">
       <h2>{id}</h2>
       <p>
         {seatNum} seat(s), {type}
       </p>
-    </span>
+    </div>
     {days.map(renderDayCell)}
   </div>
 )

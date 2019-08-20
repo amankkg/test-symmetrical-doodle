@@ -75,10 +75,11 @@ body {
 }
 
 .hcell > p {
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateX(-25%);
   font-size: small;
   color: #808080;
   white-space: nowrap;
+  text-align: right;
 }
 
 .cell-header {
